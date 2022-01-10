@@ -130,7 +130,7 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "Email"
       icon: "fab fa-fw fa-envelope-square"
       url: "mailto:chanmin9401@gmail.com"
     - label: "Facebook"
