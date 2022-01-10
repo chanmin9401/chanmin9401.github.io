@@ -9,7 +9,7 @@ toc_label: "ABOUT_ME"
  궁금하신 내용, 필요하신 내용, 잘못 기재된 사항 등 필요하시면 email로 연락 부탁드립니다.<br>
 {: .notice--info}
 
-** Main Skill ** : `Java` `JavaScript` `Oracle`
+**Main Skill** : `Java` `JavaScript` `Oracle`
 
 ### 🏫 학력사항
 - 홍익대학교 컴퓨터공학 학사 (2012.03 ~ 2018.02)
