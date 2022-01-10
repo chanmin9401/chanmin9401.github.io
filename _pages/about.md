@@ -4,13 +4,12 @@ toc: true
 toc_sticky: true
 toc_label: "ABOUT_ME"
 ---
- 📌 <br>
- 무엇이든 **개선하는 재미**로 공부하는 개발자입니다.<br>
+ 📌 **무엇이든 개선하는 재미로 공부하는 개발자입니다.**<br>
  사용자가 터치 한번이라도 덜 할 수 있는 서비스를 지향하고 있습니다!😉<br>
  궁금하신 내용, 필요하신 내용, 잘못 기재된 사항 등 필요하시면 email로 연락 부탁드립니다.<br>
 {: .notice--info}
 
-### Main Skil : `Java` `JavaScript` `Oracle`
+** Main Skill ** : `Java` `JavaScript` `Oracle`
 
 ### 🏫 학력사항
 - 홍익대학교 컴퓨터공학 학사 (2012.03 ~ 2018.02)
