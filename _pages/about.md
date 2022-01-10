@@ -17,9 +17,11 @@ toc_label: "ABOUT_ME"
 ### 📝 경력사항
 **케이카 주식회사 IT개발팀 (2018.01 ~ 2021.03)**<br>
 > 모바일 백오피스, 전자계약시스템 개발, 운영<br>
+> [ Java, AngularJs, JavaScript, HTML5, Oracle, Mybatis, Ionic ]
 
-**NICE평가정보 서비스 개발1팀 (2021.04 ~ )**<br>
-> API 게이트웨이 서버 개발, 나이스 지키미 개발,운영
+**NICE평가정보 서비스 개발1팀 (2021.04 ~ )**
+> API 게이트웨이 서버 개발, 나이스 지키미 개발,운영<br>
+> [ Java, JSP, JavaScript, Oracle, Mybatis ]
 
 ### 🏅 자격사항
 **정보처리기사** (18201071424P)<br>
