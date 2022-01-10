@@ -15,18 +15,18 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Bob's Note"
-title_separator          : " "
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Developer Bob"
+locale                   : "ko-KR"
+title                    : "BOB'S NOTE"
+title_separator          : "-"
+subtitle                 : "기록이 곧 자산!"
+name                     : "박찬민(Park Chanmin)"
 description              : ""
 url                      : "https://chanmin9401.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/chanmin9401/chanmin9401.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "BOB'S NOTE"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,10 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bob"
+  name             : "Bob(Park Chanmin)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "BackEnd Developer / ESFJ"
-  location         : "Seoul. Korea"
+  location         : "Seoul / Rep. of Korea"
   email            : # "chanmin9401@gmail.com"
   links:
     - label: "Email"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/chanmin9401"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -131,14 +131,14 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+      icon: "fab fa-fw fa-envelope-square"
+      url: "mailto:chanmin9401@gmail.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/chanmin9401"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -216,7 +216,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
