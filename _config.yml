@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Bob(Park Chanmin)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/26996562?v=4"
   bio              : "BackEnd Developer / ESFJ"
   location         : "Seoul / Rep. of Korea"
   email            : # "chanmin9401@gmail.com"
