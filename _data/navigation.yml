@@ -2,5 +2,7 @@
 main:
   - title: "Me"
     url: "/about/"
-  - title: "Category"
-    url: "/categories/"
+  - title: "BACKEND"
+    url: "/backend/"
+  - title: "DB"
+    url: "/db/"
