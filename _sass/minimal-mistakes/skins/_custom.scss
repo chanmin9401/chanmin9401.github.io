@@ -4,19 +4,19 @@
 
 
 /* Colors */
-$background-color: #fbf7ff !default;
+$background-color: ##f9fff8 !default;
 $text-color: #252533 !default;
 $muted-text-color: #37375c !default;
 $primary-color: #444463 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
-$footer-background-color: $primary-color !default;
+$footer-background-color: #4e5c40 !default;
 $link-color: #62497a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
-  color: #e6e6ff !important; // override
+  color: #ffffff !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
