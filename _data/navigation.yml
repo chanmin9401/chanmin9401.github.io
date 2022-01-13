@@ -2,6 +2,8 @@
 main:
   - title: "Me"
     url: "/about/"
+  - title: "FRONTEND"
+    url: "/frontend/"
   - title: "BACKEND"
     url: "/backend/"
   - title: "DB"
