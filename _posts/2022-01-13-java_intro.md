@@ -14,3 +14,6 @@ toc: true   #Table Of Contents 목차
 
 toc_sticky: true
 ---
+
+## Intro
+Java에 대해 알게된 것들을 정리하는 공간입니다.
