@@ -9,7 +9,7 @@ tag:
 
 author_profile: true    #작성자 프로필 출력 여부
 
-last_modified_at: 2022-01-18 T19:00:00+09:00
+last_modified_at: 2022-01-19 T19:00:00+09:00
 
 toc: true   #Table Of Contents 목차 
 
@@ -58,6 +58,7 @@ Stream API는 데이터를 추상화하여 다루므로, 다양한 방식으로 
 String Array의 각 항목을 Stream으로 변환하여 출력하는 방식은 다음과 같습니다.
 ``` java
 String[] arr = new String[]{"넷", "둘", "셋", "하나"};
+
 // 기존 배열 출력 방식
 for(int i = 0; i<arr.length; i++){
     System.out.print(arr[i] + " ");
@@ -80,6 +81,19 @@ stream1.forEach(e -> System.out.print(e + " "));
 그래서 많은 자바 개발자들은 Calendar 클래스뿐만 아니라 더 나은 성능의 **Joda-Time**이라는 라이브러리를 함께 사용해왔고,
 Java SE 8 버전부터 Joda-Time 라이브러리를 발전시킨 새로운 날짜와 시간 API인 java.time 패키지를 제공하기 시작하였습니다.
 
-### 📌 참고
+자세한 내용은 [**Time패키지 활용법!**](https://chanmin9401.github.io/java/about_time_package/)에서 다뤄보겠습니다.
+
+## Nashorn
+지금까지 자바스크립트의 기본 엔진으로는 모질라의 Rhino가 사용되어 왔습니다.
+Rhino는 그 당시에는 훌륭한 스크립트 엔진이었습니다.
+
+하지만 세월이 흐르면서 자바의 최신 개선 사항 등을 제대로 활용하지 못하는 등 노후화된 모습을 보여주게 됩니다.
+
+따라서 이번 Java SE 8 버전부터는 자바스크립트의 새로운 엔진으로 오라클의 Nashorn을 도입하게 됩니다.
+Nashorn은 기존에 사용되어 온 Rhino에 비해 성능과 메모리 관리 면에서 크게 개선된 스크립트 엔진입니다.
+> JAVA11 기준으로는<br>
+> "ECMA 스펙 변경마다 이를 관리하기가 어렵다"는 명목하에 Nashorn 엔진을 제거하고 GraalVM으로 대체하고 있다.
+
+📌 참고<br>
 <http://www.tcpschool.com/java/java_intro_java8>{: target="_blank"}<br>
 <https://mangkyu.tistory.com/113>{: target="_blank"}
