@@ -43,7 +43,7 @@ public String hello() { return "Hello World!"; }
 ```
 위와 같이 불필요한 코드를 줄여 가독성을 높이는 것이 눈에 띄는 장점입니다.
 
-자세한 내용은 [**람다에 대한 고찰...**](https://chanmin9401.github.io/java/about_lambda/)에서 다뤄보겠습니다.
+자세한 내용은 [**람다 소개!**](https://chanmin9401.github.io/java/about_lambda/)에서 다뤄보겠습니다.
 
 ## Stream API
 기존에는 많은 양의 데이터를 다루기 위해 주로 Collection Framework의 List, Map, Set 인터페이스의 구현체를 사용하였습니다.
@@ -69,7 +69,7 @@ Stream<String> stream1 = Arrays.stream(arr);
 stream1.forEach(e -> System.out.print(e + " "));
 ```
 
-자세한 내용은 [**Stream API에 대한 고찰...**](https://chanmin9401.github.io/java/about_stream/)에서 다뤄보겠습니다.
+자세한 내용은 [**Stream API 소개!**](https://chanmin9401.github.io/java/about_stream/)에서 다뤄보겠습니다.
 
 ## java.time 패키지
 기존에 사용된 Date, Calendar 패키지는 아래와 같은 단점 및 문제점들이 있습니다.
