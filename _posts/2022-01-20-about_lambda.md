@@ -114,7 +114,7 @@ public class Lambda {
 }
 ```
 JAVA는 java.util.function 패키지를 통해 함수형 인터페이스를 구현하여 제공합니다.<br>
-java.util.function 패키지에 대한 자세한 내용은 [Package.java.util.function](<https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html>{: target="_blank"})에서 확인바랍니다.<br>
+java.util.function 패키지에 대한 자세한 내용은 [Package.java.util.function](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html){: target="_blank"}에서 확인바랍니다.<br>
 
 📌 참고<br>
 <http://tcpschool.com/java/java_lambda_concept>{: target="_blank"}<br>
