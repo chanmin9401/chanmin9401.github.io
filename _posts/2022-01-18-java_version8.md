@@ -84,12 +84,13 @@ JAVA SE 8 버전부터 Joda-Time 라이브러리를 발전시킨 새로운 날�
 자세한 내용은 [**Time패키지 활용법!**](https://chanmin9401.github.io/java/about_time_package/)에서 다뤄보겠습니다.
 
 ## Nashorn
-JAVA SE 8 버전 이전까지는 자바스크립트의 기본 엔진으로 Rhino가 사용되어 왔습니다.
-그러나 자바의 최신 개선 사항 등을 제대로 활용하지 못하는 등의 문제로 JAVA SE 8 버전부터 자바스크립트의 새로운 엔진으로 오라클의 Nashorn을 도입하게 됩니다.
-Nashorn은  Rhino에 비해 성능과 메모리 관리 면에서 크게 개선된 스크립트 엔진입니다.<br>
+JAVA SE 8 버전 이전까지는 자바스크립트의 기본 엔진으로 **Rhino**가 사용되어 왔습니다.
+그러나 자바의 최신 개선 사항 등을 제대로 활용하지 못하는 등의 문제로 JAVA SE 8 버전부터 자바스크립트의 새로운 엔진으로 오라클의 **Nashorn**을 도입하게 됩니다.
+Nashorn은  Rhino에 비해 성능과 **메모리 관리 면에서 크게 개선된 스크립트 엔진**입니다.<br>
 
 JAVA 11 기준으로는
 > "ECMA 스펙 변경마다 이를 관리하기가 어렵다"
+
 는 이유로 Nashorn 엔진을 제거하고 [**GraalVM**](https://www.graalvm.org/){: target="_blank"}으로 대체하고 있습니다.
 
 📌 참고<br>
