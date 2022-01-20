@@ -1,5 +1,5 @@
 ---
-title: '[JAVA] 람다에 대한 고찰...' 
+title: '[JAVA] 람다 소개!' 
 excerpt: "람다 개념 및 활용법 소개"
 categories:
     - JAVA
