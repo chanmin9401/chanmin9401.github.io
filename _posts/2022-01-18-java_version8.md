@@ -79,24 +79,18 @@ stream1.forEach(e -> System.out.print(e + " "));
 그러나 요일을 표시할 때는 1부터 7까지로 표현하는 등 일관적이지 못함.
 
 그래서 많은 자바 개발자들은 Calendar 클래스뿐만 아니라 더 나은 성능의 **Joda-Time**이라는 라이브러리를 함께 사용해왔고,
-Java SE 8 버전부터 Joda-Time 라이브러리를 발전시킨 새로운 날짜와 시간 API인 java.time 패키지를 제공하기 시작하였습니다.
+JAVA SE 8 버전부터 Joda-Time 라이브러리를 발전시킨 새로운 날짜와 시간 API인 java.time 패키지를 제공하기 시작하였습니다.
 
 자세한 내용은 [**Time패키지 활용법!**](https://chanmin9401.github.io/java/about_time_package/)에서 다뤄보겠습니다.
 
 ## Nashorn
-지금까지 자바스크립트의 기본 엔진으로는 모질라의 Rhino가 사용되어 왔습니다.
-Rhino는 그 당시에는 훌륭한 스크립트 엔진이었습니다.
+JAVA SE 8 버전 이전까지는 자바스크립트의 기본 엔진으로 Rhino가 사용되어 왔습니다.
+그러나 자바의 최신 개선 사항 등을 제대로 활용하지 못하는 등의 문제로 JAVA SE 8 버전부터 자바스크립트의 새로운 엔진으로 오라클의 Nashorn을 도입하게 됩니다.
+Nashorn은  Rhino에 비해 성능과 메모리 관리 면에서 크게 개선된 스크립트 엔진입니다.<br>
 
-하지만 세월이 흐르면서 자바의 최신 개선 사항 등을 제대로 활용하지 못하는 등 노후화된 모습을 보여주게 됩니다.
-
-따라서 이번 Java SE 8 버전부터는 자바스크립트의 새로운 엔진으로 오라클의 Nashorn을 도입하게 됩니다.
-Nashorn은 기존에 사용되어 온 Rhino에 비해 성능과 메모리 관리 면에서 크게 개선된 스크립트 엔진입니다.<br>
-
-JAVA11 기준으로는
-
+JAVA 11 기준으로는
 > "ECMA 스펙 변경마다 이를 관리하기가 어렵다"
-
-는 이유로 Nashorn 엔진을 제거하고 [**GraalVM**](https://www.graalvm.org/)으로 대체하고 있습니다.
+는 이유로 Nashorn 엔진을 제거하고 [**GraalVM**](https://www.graalvm.org/){: target="_blank"}으로 대체하고 있습니다.
 
 📌 참고<br>
 <http://www.tcpschool.com/java/java_intro_java8>{: target="_blank"}<br>
