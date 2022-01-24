@@ -29,8 +29,10 @@ Collection뿐만 아니라 파일에 들어있는 데이터도 Stream객체로 �
 ## 🌊 Stream API 연산 과정
 1. Stream 생성
 2. 중개연산
-3. 최종연산<br>
-<img src="https://user-images.githubusercontent.com/26996562/150715979-0f9dce8b-689c-4fac-a769-8baad3def0a8.png  width="200" height="400"/>
+3. 최종연산
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/26996562/150715979-0f9dce8b-689c-4fac-a769-8baad3def0a8.png" alt="about_stream_api_img_1"/>
+</p>
 📌 참고<br>
 <http://tcpschool.com/java/java_stream_concept>{: target="_blank"}<br>
