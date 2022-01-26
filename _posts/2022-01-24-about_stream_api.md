@@ -90,36 +90,36 @@ Strean API에 의해 생성된 Stream은 중개 연산을 통해 또 다른 Stre
 중개 연산은 Stream을 전달받아 Stream을 반환하므로 연속으로 연결해서 사용할 수 있습니다.
 또한, Strean의 중개 연산은 필터-맵(filter-map) 기반의 API를 사용함으로 지연(lazy) 연산을 통해 성능을 최적화할 수 있습니다.
 
-스트림 API에서 사용할 수 있는 대표적인 중개 연산과 그에 따른 메소드는 다음과 같습니다.
+Stream API에서 사용할 수 있는 대표적인 중개 연산과 그에 따른 메소드는 다음과 같습니다.
 
-1. 필터링 : filter(), distinct()
+### 필터링
 
 |Method|Desc|
 |------|----|
 |Stream.filter(조건)|Stream에서 주어진 조건에 맞는 요소만으로 구성된 새로운 Stream을 반환|
 |Stream.distinct()|Stream에서 중복된 요소가 제거된 새로운 Stream을 반환|
 
-2. 변환 : map(), flatMap()
+### 변환
 
 |Method|Desc|
 |------|----|
 |Stream.map(Functoin())|Stream의 요소들을 주어진 함수에 인수로 전달하여, 그 함수의 결과값으로 이루어진 새로운 Stream을 반환|
 |Stream.flatMap(Functoin())|Stream의 요소가 배열이라면, flatMap() 메소드를 사용하여 각 배열의 각 요소의 반환값을 하나로 합친 새로운 Stream을 반환할 수 있음|
 
-3. 제한 : limit(), skip()
+### 제한
 
 |Method|Desc|
 |------|----|
 |Stream.limit()|Stream의 첫 번째 요소부터 전달된 개수만큼의 요소만으로 이루어진 새로운 Stream을 반환|
 |Stream.skip()|Stream의 첫 번째 요소부터 전달된 개수만큼의 요소를 제외한 나머지 요소만으로 이루어진 새로운 Stream을 반환|
 
-5. 정렬 : sorted()
+### 정렬
 
 |Method|Desc|
 |------|----|
 |Stream.sorted(Comparator)|Stream을 주어진 Comparator를 이용하여 정렬, Comparator를 전달하지 않으면 기본적으로 사전 순으로 정렬|
 
-6. 연산 결과 확인 : peek()
+### 연산 결과 확인
 
 |Method|Desc|
 |------|----|
