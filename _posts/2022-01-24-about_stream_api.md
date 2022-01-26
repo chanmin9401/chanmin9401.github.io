@@ -125,9 +125,41 @@ Stream API에서 사용할 수 있는 대표적인 중개 연산과 그에 따�
 |------|----|
 |Stream.peek(Function())|결과 Stream으로부터 요소를 소모하여 추가로 명시된 동작을 수행. 원본 Stream의 요소를 소모하지 않으므로, 주로 연산과 연산 사이에 결과를 확인하며 디버깅이 필요할때 사용|
 
+## 🗿 최종연산
+Stream API에서 중개 연산을 통해 변환된 Stream은 마지막으로 최종 연산을 통해 각 요소를 소모하여 결과를 표시합니다.
+지연(lazy)되었던 모든 중개 연산들이 최종 연산 시에 모두 수행되며, 최종 연산 시에 모든 요소를 소모한 Stream은 더는 사용할 수 없게 됩니다.
+
+Stream API에서 사용할 수 있는 대표적인 최종 연산과 그에 따른 메소드는 다음과 같습니다.
+
+### 출력
+
+|Method|Desc|
+|------|----|
+|Stream.forEach()|Stream의 각 요소를 소모하여 명시된 동작을 수행|
+
+### 소모
+
+|Method|Desc|
+|------|----|
+|Stream.reduce()|첫 번째와 두 번째 요소를 가지고 연산을 수행한 뒤, 그 결과와 세 번째 요소를 가지고 또다시 연산을 수행|
+
+- 사용 예
+```java
+Stream<String> stream1 = Stream.of("하나", "둘", "셋", "넷");
+Stream<String> stream2 = Stream.of("A", "B", "C", "D");
+
+Optional<String> result1 = stream1.reduce((s1, s2) -> s1 + "+" + s2);   // 하나+둘+셋+넷
+String result2 = stream2.reduce("Start!", (s1, s2) -> s1 + "+" + s2);   // Start!+A+B+C+D
+```
+result2와 같이 reduce의 인자로 초깃값을 전달하면, 
+빈 Stream과 reduce 연산을 할 경우 전달받은 초깃값을 그대로 반환해야 하는 것을 고려하여 Optional이 아닌 **인자의 타입으로 결과를 반환**해야합니다.
+
+Optional 클래스에 관한 자세한 내용은 [**Optional이란!**](https://chanmin9401.github.io/java/about_optional/)에서 다뤄보겠습니다.
+
 
 
 📌 참고<br>
 <http://tcpschool.com/java/java_stream_concept>{: target="_blank"}<br>
 <http://tcpschool.com/java/java_stream_creation>{: target="_blank"}<br>
-
+<http://tcpschool.com/java/java_stream_intermediate>{: target="_blank"}<br>
+<http://tcpschool.com/java/java_stream_terminal>{: target="_blank"}<br>
