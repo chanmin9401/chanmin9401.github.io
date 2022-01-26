@@ -157,7 +157,6 @@ result2와 같이 reduce의 인자로 초깃값을 전달하면,
 Optional 클래스에 관한 자세한 내용은 [**Optional이란!**](https://chanmin9401.github.io/java/about_optional/)에서 다뤄보겠습니다.
 
 
-
 📌 참고<br>
 <http://tcpschool.com/java/java_stream_concept>{: target="_blank"}<br>
 <http://tcpschool.com/java/java_stream_creation>{: target="_blank"}<br>
