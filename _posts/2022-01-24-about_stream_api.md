@@ -126,6 +126,7 @@ Stream API에서 사용할 수 있는 대표적인 중개 연산과 그에 따�
 |Stream.peek(Function())|결과 Stream으로부터 요소를 소모하여 추가로 명시된 동작을 수행. 원본 Stream의 요소를 소모하지 않으므로, 주로 연산과 연산 사이에 결과를 확인하며 디버깅이 필요할때 사용|
 
 
+
 📌 참고<br>
 <http://tcpschool.com/java/java_stream_concept>{: target="_blank"}<br>
 <http://tcpschool.com/java/java_stream_creation>{: target="_blank"}<br>
