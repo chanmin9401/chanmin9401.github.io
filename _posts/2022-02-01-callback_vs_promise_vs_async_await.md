@@ -67,6 +67,7 @@ Promise는 다음 3가지 중 하나의 상태값을 가집니다.
 - Pending(대기) : 연산에 대한 어떤 동작도 하지 않은 초기상태
 - Fulfilled(이행) : 연산을 정상적으로 완료한 상태
 - Rejected(거부) : 연산을 실패한 상태
+
 Promise의 사용 예는 아래와 같습니다.
 ``` javascript
 const addSum = (a,b) => {
